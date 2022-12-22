@@ -1,19 +1,14 @@
-# craco-module-federation
-
-## Note
-
-THIS IS NOT PRODUCTION READY
-Webpack 5 support of CRA is still in its alpha phase and there might be breaking changes in either CRA5 or this plugin in the future.
+# craco-plugin-module-federation
 
 Add module-federation support to your CRA5 project without ejecting and losing update support of react-scripts
 
-![](https://img.shields.io/npm/v/craco-module-federation.svg?style=flat)
-![](https://img.shields.io/npm/dt/craco-module-federation.svg?style=flat)
+![](https://img.shields.io/npm/v/craco-plugin-module-federation.svg?style=flat)
+![](https://img.shields.io/npm/dt/craco-plugin-module-federation.svg?style=flat)
 
 ## Install
 
 ```
-npm install craco-module-federation --save-dev
+npm install craco-plugin-module-federation --save-dev
 ```
 
 ## Usage
@@ -21,7 +16,7 @@ npm install craco-module-federation --save-dev
 1. Add the plugin into your craco.config.js;
 
 ```
-const cracoModuleFederation = require('craco-module-federation');
+const cracoModuleFederation = require('craco-plugin-module-federation');
 
 module.exports = {
     plugins: [{
@@ -79,4 +74,4 @@ There are two test apps in this repository inside test folder (app1 and app2). I
 
 ## License
 
-Licensed under the MIT License, Copyright ©️ 2021 Hasan Ayan. See [LICENSE.md](LICENSE) for more information.
+Licensed under the MIT License, Copyright ©️ 2022 Aleksandr Putilov. See [LICENSE.md](LICENSE) for more information.

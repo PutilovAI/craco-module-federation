@@ -1,10 +1,10 @@
 {
-  "name": "craco-module-federation",
-  "version": "1.1.0",
+  "name": "craco-plugin-module-federation",
+  "version": "1.0.0",
   "description": "Add module federation support to your CRA5 application without ejecting",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hasanayan/craco-module-federation.git"
+    "url": "git+https://github.com/PutilovAI/craco-plugin-module-federation.git"
   },
   "keywords": [
     "module-federation",
@@ -13,12 +13,12 @@
     "cra",
     "create-react-app"
   ],
-  "author": "hasanayan",
+  "author": "PutilovAI",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hasanayan/craco-module-federation/issues"
+    "url": "https://github.com/PutilovAI/craco-plugin-module-federation/issues"
   },
-  "homepage": "https://github.com/hasanayan/craco-module-federation#readme",
+  "homepage": "https://github.com/PutilovAI/craco-plugin-module-federation#readme",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -26,7 +26,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@craco/craco": "^6.3.0"
+  "peerDependencies": {
+    "@craco/craco": "^7.0.0",
+    "webpack": "5.x"
   }
 }
